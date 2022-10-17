@@ -1720,7 +1720,7 @@ h6 {
   letter-spacing: line;
   color: white;
   font-weight: 700;
-  opacity: 0.7;
+  opacity: 0.3;
    writing-mode: vertical-rl;
   /* text-orientation: upright; */
 }
@@ -1747,4 +1747,19 @@ h6 {
   width: fit-content;
   border-radius: 5px;
   
+}
+
+
+@media screen and (max-width:768px){
+  .teamSection{
+    height: fit-content !important;
+  }
+  #theme{
+    height:fit-content ;
+  }
+}
+
+
+.ticketCard{
+  background-color: black !important;
 }
