@@ -1683,7 +1683,7 @@ h6 {
 }
 
 #theme{
-  height: 80vh;
+  padding: 200px;
   background: url('../img/theme.png');
   background-size: contain;
   background-repeat: no-repeat;
@@ -1722,6 +1722,8 @@ h6 {
   /* text-orientation: upright; */
 }
 
+
+
 .bi{
   font-size: 1.4rem;
   margin: 5px;
@@ -1755,6 +1757,9 @@ h6 {
 @media screen and (max-width:768px){
   .teamSection{
     height: fit-content !important;
+  }
+  #themeHeader{
+    font-size: 30px;
   }
   #theme{
     height:fit-content ;
