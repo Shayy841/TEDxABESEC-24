@@ -689,7 +689,7 @@ h6 {
 
 #about:before {
   content: "";
-  background: rgba(13, 20, 41, 0.8);
+  /* background: rgba(13, 20, 41, 0.8); */
   position: absolute;
   bottom: 0;
   top: 0;
@@ -1709,9 +1709,6 @@ h6 {
   color: red !important;
 }
 
-.teamSection{
-  height: 90vh;
-}
 
 
 #themeHeader{
@@ -1732,6 +1729,7 @@ h6 {
 
 .teamDetails{
   padding: 10px 0px;
+  text-align: left !important;
 }
 .teamDetails h3,p{
   margin: 5px 0px;
@@ -1750,6 +1748,10 @@ h6 {
 }
 
 
+.teamSection{
+  text-align: center;
+}
+
 @media screen and (max-width:768px){
   .teamSection{
     height: fit-content !important;
@@ -1763,3 +1765,32 @@ h6 {
 .ticketCard{
   background-color: black !important;
 }
+
+
+
+.whereIcon{
+  padding-right: 10px;
+}
+
+
+.teamPageSection{
+  margin-top: 150px;
+  height: unset;
+}
+
+
+.teamButton{
+  padding: 15px 50px;
+  background-color: red;
+  border-radius: 10px;
+  color: white;
+  margin: auto 10px;
+  z-index: 1;
+}
+
+
+.teamButton:hover{
+  color: white;
+  opacity: 0.6;
+}
+
