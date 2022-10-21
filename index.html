@@ -20,7 +20,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 
   <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="./assets/css/style.css" rel="stylesheet">
 
 
 </head>
@@ -44,6 +44,7 @@
           <li><a class="nav-link scrollto" href="#speakers">Speakers</a></li>
           <li><a class="nav-link scrollto" href="#schedule">Schedule</a></li>
           <li><a class="nav-link scrollto" href="#gallery">Gallery</a></li>
+<li><a class="nav-link scrollto" href="#themeSection">Theme</a></li>
           <li><a class="nav-link scrollto" href="#supporters">Sponsors</a></li>
           <li><a class="nav-link scrollto" href="#footer">Contact</a></li>
         </ul>
@@ -94,7 +95,7 @@
           </div>
           <div class="col-lg-4 text-dark">
             <h3 class="text-dark">Where</h3>
-            <p class="text-dark"><i class="bi bi-geo-alt mx-1"></i>ABES Engineering College, Ghaziabad</p>
+            <p class="text-dark"><i class="bi bi-geo-alt m-0 whereIcon"></i>ABES Engineering College, Ghaziabad</p>
           </div>
           <div class="col-lg-3 ">
             <h3 class="text-dark">When</h3>
@@ -323,7 +324,7 @@
         <div class="section-header">
           <h2>Gallery</h2>
           <p>Check out the work in action</p>
-        </div>
+         </div>
       </div>
 
       <div class="gallery-slider swiper">
@@ -348,31 +349,47 @@
                 src="assets/img/gallery/8.jpg" class="img-fluid" alt=""></a></div>
         </div>
         <div class="swiper-pagination"></div>
+
       </div>
 
     </section><!-- End Gallery Section -->
 
 
-    <div id="carouselExampleControls" class="teamSection carousel slide" data-bs-ride="carousel">
+    <div id="carouselExampleControls" class="teamSection carousel container slide py-2 my-4 " data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="section-header">
           <h2>Our Team</h2>
-        </div>   
+        </div> 
+        
+        <div class="row">
+         <div class="col-lg-3 col-md-4 col-6 my-3 teamCard"><img src="./assets/img/d (1).JPG" alt="" class="w-100"> <p class="teamName">Technical <span class="span">Team</span></p></div> 
+         <div class="col-lg-3 col-md-4 col-6 my-3 teamCard"><img src="./assets/img/d (2).JPG" alt="" class="w-100"> <p class="teamName">Sponsorship <span class="span">Team</span></p></div> 
+         <div class="col-lg-3 col-md-4 col-6 my-3 teamCard"><img src="./assets/img/d (3).JPG" alt="" class="w-100"> <p class="teamName">Production <span class="span">Team</span></p></div> 
+         <div class="col-lg-3 col-md-4 col-6 my-3 teamCard"><img src="./assets/img/d (4).JPG" alt="" class="w-100"> <p class="teamName">Production <span class="span">Team</span></p></div> 
+         <div class="col-lg-3 col-md-4 col-6 my-3 teamCard"><img src="./assets/img/d (5).JPG" alt="" class="w-100"> <p class="teamName">Decor <span class="span">Team</span></p></div> 
+         <div class="col-lg-3 col-md-4 col-6 my-3 teamCard"><img src="./assets/img/d (6).JPG" alt="" class="w-100"> <p class="teamName">Promotions <span class="span">Team</span></p></div> 
+         <div class="col-lg-3 col-md-4 col-6 my-3 teamCard"><img src="./assets/img/d (7).JPG" alt="" class="w-100"> <p class="teamName">Discipline <span class="span">Team</span></p></div> 
+         <div class="col-lg-3 col-md-4 col-6 my-3 teamCard"><img src="./assets/img/d (8).JPG" alt="" class="w-100"> <p class="teamName">Curation <span class="span">Team</span></p></div> 
+        </div>
       </div>
-      <a href="team.html" class="teamButton">Meet our Team</a>
 
     </div>
 
 
 
 
-    <div id="themeSection" data-aos="fade-up" class=" container-fluid mx-auto  py-2 row w-100 align-items-center">
-      <h1 id="themeHeader" class="col-lg-1 col-10">Our Theme</h1>
-      <div id="theme" data-aos="zoom-in" data-aos-delay="100" class=" col-11 container mx-auto d-flex justify-content-center">
-  
-          <h1 class="text-black theme-head my-auto d-lg-block d-none">"To Be <span class="text-danger">or</span> Not to Be"</h1>
-        
+    <div id="themeSection" data-aos="fade-up" class="col-lg-8 py-3 mx-auto text-center col-12">
+      
+      <div class="section-header">
+          <h2>Our Theme</h2>
+        </div> 
+      <div class="row align-items-center">
+
+        <img src="assets/img/theme.png" class="col-lg-6 col-11 mx-auto"  alt="theme">   
+        <h1 class="col-lg-6 col-11 mx-auto display-1" style="font-weight: 700;">To be <span class="text-danger">or</span> not to be...</h1>       
       </div>
+        
+  
     </div>
 
     <!-- ======= Supporters Section ======= -->
@@ -448,114 +465,18 @@
 
         <div class="section-header">
           <h2>Buy Tickets</h2>
-          <p>Coming Soon</p>
         </div>
-        <!--
-        <div class="row">
-          <div class="col-lg-4 ticketCard" data-aos="fade-up" data-aos-delay="100">
-            <div class="card mb-5 mb-lg-0">
-              <div class="card-body">
-                <h5 class="card-title text-muted text-uppercase text-center">Standard Access</h5>
-                <h6 class="card-price text-center">$150</h6>
-                <hr>
-                <ul class="fa-ul">
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Regular Seating</li>
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Coffee Break</li>
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Custom Badge</li>
-                  <li class="text-muted"><span class="fa-li"><i class="fa fa-times"></i></span>Community Access</li>
-                  <li class="text-muted"><span class="fa-li"><i class="fa fa-times"></i></span>Workshop Access</li>
-                  <li class="text-muted"><span class="fa-li"><i class="fa fa-times"></i></span>After Party</li>
-                </ul>
-                <hr>
-                <div class="text-center">
-                  <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#buy-ticket-modal"
-                    data-ticket-type="standard-access">Buy Now</button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 ticketCard" data-aos="fade-up" data-aos-delay="200">
-            <div class="card mb-5 mb-lg-0">
-              <div class="card-body">
-                <h5 class="card-title text-muted text-uppercase text-center">Pro Access</h5>
-                <h6 class="card-price text-center">$250</h6>
-                <hr>
-                <ul class="fa-ul">
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Regular Seating</li>
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Coffee Break</li>
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Custom Badge</li>
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Community Access</li>
-                  <li class="text-muted"><span class="fa-li"><i class="fa fa-times"></i></span>Workshop Access</li>
-                  <li class="text-muted"><span class="fa-li"><i class="fa fa-times"></i></span>After Party</li>
-                </ul>
-                <hr>
-                <div class="text-center">
-                  <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#buy-ticket-modal"
-                    data-ticket-type="pro-access">Buy Now</button>
-                </div>
-              </div>
-            </div>
+        <div class="row align-items-center">
+          <div class="col-lg-6 mx-auto col-11 text-center ">
+            <h5 class="bg-danger px-4 py-1 rounded mx-auto" style="width: fit-content;">Faculty Registration</h5>
+            <img src="./assets/img/qrcode.png" class="col-6 mx-auto" alt="">
           </div>
           
-          <div class="col-lg-4 ticketCard" data-aos="fade-up" data-aos-delay="300">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title text-muted text-uppercase text-center">Premium Access</h5>
-                <h6 class="card-price text-center">$350</h6>
-                <hr>
-                <ul class="fa-ul">
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Regular Seating</li>
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Coffee Break</li>
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Custom Badge</li>
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Community Access</li>
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Workshop Access</li>
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>After Party</li>
-                </ul>
-                <hr>
-                <div class="text-center">
-                  <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#buy-ticket-modal"
-                    data-ticket-type="premium-access">Buy Now</button>
-                </div>
-
-              </div>
-            </div>
+          <div class="col-lg-6 mx-auto col-11 text-center ">
+            <h5 class="bg-danger px-4 py-1 rounded mx-auto" style="width: fit-content;">Attendee Registration</h5>
+            <img src="./assets/img/qrcode.png" class="col-6 mx-auto" alt="">
           </div>
         </div>
-
-      </div>
-
-      
-      <div id="buy-ticket-modal" class="modal fade">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h4 class="modal-title">Buy Tickets</h4>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-              <form method="POST" action="#">
-                <div class="form-group">
-                  <input type="text" class="form-control" name="your-name" placeholder="Your Name">
-                </div>
-                <div class="form-group mt-3">
-                  <input type="text" class="form-control" name="your-email" placeholder="Your Email">
-                </div>
-                <div class="form-group mt-3">
-                  <select id="ticket-type" name="ticket-type" class="form-select">
-                    <option value="">-- Select Your Ticket Type --</option>
-                    <option value="standard-access">Standard Access</option>
-                    <option value="pro-access">Pro Access</option>
-                    <option value="premium-access">Premium Access</option>
-                  </select>
-                </div>
-                <div class="text-center mt-3">
-                  <button type="submit" class="btn">Buy Now</button>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-      -->
       </div>
 
     </section><!-- End Buy Ticket Section -->
@@ -593,7 +514,7 @@
 
             <div class="social-links">
 
-              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+              <a href="https://instgram.com/tedxabesec" class="instagram"><i class="bi bi-instagram"></i></a>
 
             </div>
 

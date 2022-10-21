@@ -1076,6 +1076,7 @@ h6 {
 #gallery {
   padding: 60px;
   overflow: hidden;
+
 }
 
 #gallery .swiper-pagination {
@@ -1693,16 +1694,18 @@ h6 {
 
 
 .theme-head{
-  font-size: 95px;
+  font-size: 85px;
   font-weight: 700;
   color:white !important;
-  width: 50%;
+  
   margin: auto;
   text-align: center;
 }
 
+
 #themeSection{
-  display: flex;
+  height:85vh;
+padding:50px 0px;
 }
 
 .text-danger{
@@ -1755,7 +1758,7 @@ h6 {
 }
 
 @media screen and (max-width:768px){
-  .teamSection{
+  .teamSection,#themeSection{
     height: fit-content !important;
   }
   #themeHeader{
@@ -1764,6 +1767,10 @@ h6 {
   #theme{
     height:fit-content ;
   }
+.theme-head{
+	font-size:50px;
+}
+
 }
 
 
@@ -1785,7 +1792,7 @@ h6 {
 
 
 .teamButton{
-  padding: 15px 50px;
+  padding: 10px 40px;
   background-color: red;
   border-radius: 10px;
   color: white;
@@ -1799,3 +1806,28 @@ h6 {
   opacity: 0.6;
 }
 
+#buy-tickets{
+  background-color: white !important;
+  color: black !important;
+}
+
+#buy-tickets .section-header h2{
+  color: black !important;
+}
+
+.bg-danger{
+  background-color: red !important;
+}
+
+.teamName{
+  color: black;
+  font-weight: 700;
+}
+.teamCard:hover .teamName{
+  color: white;
+  transition: 0.5s;
+}
+.teamCard:hover .teamName .span{
+  color: red;
+  transition: 0.5s;
+}
