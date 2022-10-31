@@ -1812,6 +1812,10 @@ padding:50px 0px;
   width: 100% !important;
 }
 
+#homeText{
+  margin-bottom: auto;
+}
+
 }
 
 
@@ -1899,3 +1903,4 @@ padding:50px 0px;
 #themeTextContainer{
   height: 400px;
 }
+
