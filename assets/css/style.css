@@ -228,14 +228,13 @@ h6 {
   color: #fff;
   background: #ff0000;
   padding: 7px 22px;
-  margin: 0 0 0 15px;
+  margin: auto 10px;
   border-radius: 50px;
   border: 2px solid #ff0000;
   transition: all ease-in-out 0.3s;
   font-weight: 500;
-  line-height: 1;
   font-size: 13px;
-  white-space: nowrap;
+  width: fit-content;
 }
 
 .buy-tickets:hover {
@@ -1292,6 +1291,8 @@ h6 {
   #subscribe input {
     min-width: 400px;
   }
+
+  
 }
 
 #subscribe button {
@@ -1803,6 +1804,13 @@ padding:50px 0px;
 #themeName{
   font-size: 50px !important;
 }
+#themeTextContainer{
+  height: fit-content !important;
+}
+
+#themeDesc{
+  width: 100% !important;
+}
 
 }
 
@@ -1888,3 +1896,6 @@ padding:50px 0px;
   font-family: 'Island Moments', cursive !important;
 }
 
+#themeTextContainer{
+  height: 400px;
+}
