@@ -1864,24 +1864,13 @@ padding:50px 0px;
   background-color: red !important;
 }
 
-.teamName{
-  color: black;
-  font-weight: 700;
-  opacity: 0;
-}
-.teamCard:hover .teamName{
-  color: white;
-  transition: 0.5s;
-  opacity: 1;
-}
-.teamCard:hover .teamName .span{
-  color: red;
-  transition: 0.5s;
-  opacity: 1;
-}
 
 .teamCard img{
   border-radius: 10px;
+}
+
+.teamName .span{
+  color: red;
 }
 
 
