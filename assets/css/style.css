@@ -962,14 +962,14 @@ h6 {
 
 #schedule .schedule-item h4 span {
   font-style: italic;
-  color: #19328e;
+  /* color: #19328e; */
   font-weight: normal;
   font-size: 16px;
 }
 
 #schedule .schedule-item p {
   font-style: italic;
-  color: #152b79;
+  color: red;
   margin-bottom: 0;
 }
 
