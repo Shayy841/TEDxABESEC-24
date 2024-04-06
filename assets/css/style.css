@@ -22,6 +22,7 @@
   z-index: -2;
 
 }
+
 #myVideo2 {
   z-index: -1;
   position: absolute;
@@ -48,7 +49,7 @@ body {
   background: #000;
   color: #fff;
   font-family: 'Poppins' !important;
-  
+
 }
 
 a {
@@ -60,7 +61,8 @@ a {
 a:hover,
 a:active,
 a:focus {
-  color: #ff0000;;
+  color: #ff0000;
+  ;
   outline: none;
   text-decoration: none;
 }
@@ -187,7 +189,7 @@ h6 {
 
 #header.header-scrolled,
 #header.header-inner {
-  background:black;
+  background: black;
   height: 70px;
 }
 
@@ -763,6 +765,8 @@ h6 {
   position: relative;
   overflow: hidden;
   margin-bottom: 30px;
+  height: 20rem;
+  width: auto;
 }
 
 #speakers .speaker .details {
@@ -1292,7 +1296,7 @@ h6 {
     min-width: 400px;
   }
 
-  
+
 }
 
 #subscribe button {
@@ -1561,7 +1565,7 @@ h6 {
   font-size: 14px;
 }
 
-.footer-bottom{
+.footer-bottom {
   border-top: 1px solid black;
 
 }
@@ -1711,12 +1715,12 @@ h6 {
   color: #ddd;
 }
 
-.grow:hover{
+.grow:hover {
   transition: 0.5s !important;
   scale: 1.02;
 }
 
-#theme{
+#theme {
   padding: 200px;
   background: url('../img/theme.png');
   background-size: contain;
@@ -1726,117 +1730,125 @@ h6 {
 }
 
 
-.theme-head{
+.theme-head {
   font-size: 85px;
   font-weight: 700;
-  color:white !important;
-  
+  color: white !important;
+
   margin: auto;
   text-align: center;
 }
 
 
-#themeSection{
-  height:85vh;
-padding:50px 0px;
+#themeSection {
+  height: 85vh;
+  padding: 50px 0px;
 }
 
-.text-danger{
+.text-danger {
   color: red !important;
 }
 
 
 
-#themeHeader{
+#themeHeader {
   font-size: 100px;
   padding: 0px;
   letter-spacing: line;
   color: white;
   font-weight: 700;
   opacity: 0.3;
-   writing-mode: vertical-rl;
+  writing-mode: vertical-rl;
   /* text-orientation: upright; */
 }
 
 
 
-.bi{
+.bi {
   font-size: 1.4rem;
   margin: 5px;
 }
 
-.teamDetails{
+.teamDetails {
   padding: 10px 0px;
   text-align: left !important;
 }
-.teamDetails h3,p{
+
+.teamDetails h3,
+p {
   margin: 5px 0px;
 }
 
-.teamDetails h3{
+.teamDetails h3 {
   color: white !important;
 }
-.teamDetails p{
+
+.teamDetails p {
   background-color: red;
   padding: 3px 10px;
   font-size: 12px;
   width: fit-content;
   border-radius: 5px;
-  
+
 }
 
 
-.teamSection{
+.teamSection {
   text-align: center;
 }
 
-@media screen and (max-width:768px){
-  .teamSection,#themeSection{
+@media screen and (max-width:768px) {
+
+  .teamSection,
+  #themeSection {
     height: fit-content !important;
   }
-  #themeHeader{
+
+  #themeHeader {
     font-size: 30px;
   }
-  #theme{
-    height:fit-content ;
+
+  #theme {
+    height: fit-content;
   }
 
-#themeName{
-  font-size: 50px !important;
-}
-#themeTextContainer{
-  height: fit-content !important;
+  #themeName {
+    font-size: 50px !important;
+  }
+
+  #themeTextContainer {
+    height: fit-content !important;
+  }
+
+  #themeDesc {
+    width: 100% !important;
+  }
+
+  #homeText {
+    margin-bottom: auto;
+  }
+
 }
 
-#themeDesc{
-  width: 100% !important;
-}
 
-#homeText{
-  margin-bottom: auto;
-}
-
-}
-
-
-.ticketCard{
+.ticketCard {
   background-color: black !important;
 }
 
 
 
-.whereIcon{
+.whereIcon {
   padding-right: 10px;
 }
 
 
-.teamPageSection{
+.teamPageSection {
   margin-top: 150px;
   height: unset;
 }
 
 
-.teamButton{
+.teamButton {
   padding: 10px 40px;
   background-color: red;
   border-radius: 10px;
@@ -1846,36 +1858,37 @@ padding:50px 0px;
 }
 
 
-.teamButton:hover{
+.teamButton:hover {
   color: white;
   opacity: 0.6;
 }
 
-#buy-tickets{
+#buy-tickets {
   background-color: white !important;
   color: black !important;
 }
 
-#buy-tickets .section-header h2{
+#buy-tickets .section-header h2 {
   color: black !important;
 }
 
-.bg-danger{
+.bg-danger {
   background-color: red !important;
 }
 
 
-.teamCard img{
+.teamCard img {
   border-radius: 10px;
 }
 
-.teamName .span{
+.teamName .span {
   color: red;
 }
 
 
 
-#buy-tickets,#footer{
+#buy-tickets,
+#footer {
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -1884,12 +1897,11 @@ padding:50px 0px;
 }
 
 
-#themeName{
+#themeName {
   font-size: 80px;
   font-family: 'Island Moments', cursive !important;
 }
 
-#themeTextContainer{
+#themeTextContainer {
   height: 400px;
 }
-
