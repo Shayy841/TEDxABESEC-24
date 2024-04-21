@@ -765,7 +765,7 @@ h6 {
   position: relative;
   overflow: hidden;
   margin-bottom: 30px;
-  height: 20rem;
+  height: 20rem !important;
   width: auto;
 }
 
